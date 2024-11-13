@@ -1,5 +1,68 @@
 @charset "utf-8";
 
-p {
-    color: blue;
+.container {
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #ccc;
+}
+
+.top {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background: #f00;
+    display: flex;
+}
+
+.white-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    background-color: #ccc;
+    gap: 10px;
+    padding: 10px;
+}
+
+.purple-box {
+    width: 40px;
+    height: 40px;
+    background-color: #6729a0;
+}
+
+.middle {
+    display: flex;
+}
+
+.left {
+    width: 150px;
+    height: 250px;
+    background: #0a5;
+}
+
+.right {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background:  #2563eb;
+}
+
+.orange-box {
+    width: 140px;
+    height: 40px;
+    background: #ff863f;
+    border: 5px solid #ccc;
+    margin: 5px 0;
+    position: relative;
+    top: 40px;
+    margin-left: 40px
+}
+
+.bottom {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background: #fd0;
 }
