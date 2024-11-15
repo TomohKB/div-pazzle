@@ -12,7 +12,7 @@
     width: 400px;
     height: 100px;
     background: #f00;
-    display: flex;
+    /* display: flex; */
 }
 
 .white-box {
@@ -21,7 +21,7 @@
     right: 20px;
     display: flex;
     background-color: #ccc;
-    gap: 10px;
+    /* gap: 10px; */
     padding: 10px;
 }
 
@@ -29,6 +29,10 @@
     width: 40px;
     height: 40px;
     background-color: #6729a0;
+    margin-left: 10px;
+}
+.purple-box:first-child {
+    margin: 0;
 }
 
 .middle {
@@ -44,19 +48,21 @@
 .right {
     width: 250px;
     height: 250px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background:  #2563eb;
+    padding-top: 40px;
+    box-sizing: border-box;
 }
 
 .orange-box {
-    width: 140px;
+    width: 144px;
     height: 40px;
     background: #ff863f;
     border: 5px solid #ccc;
     margin: 5px 0;
-    position: relative;
-    top: 40px;
+    /* position: relative; */
+    /* top: 40px; */
     margin-left: 40px
 }
 
